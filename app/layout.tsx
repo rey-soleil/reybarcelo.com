@@ -1,5 +1,5 @@
 import Sidebar from "../components/sidebar";
-import "./globals.css";
+import "./global.css";
 
 export const metadata = {
   title: "Rey Barceló",
@@ -14,8 +14,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="bg-black text-white">
-      <body className="m-20 flex flex-col md:flex-row">
+    <html lang="en" className="bg-[#ffeb3b] text-black">
+      <body className="mx-10 my-20 flex flex-col md:flex-row">
         {" "}
         <Sidebar />
         <main>{children}</main>
