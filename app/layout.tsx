@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="bg-black text-white">
-      <body>
+      <body className="m-20 flex flex-col md:flex-row">
         {" "}
         <Sidebar />
         <main>{children}</main>
