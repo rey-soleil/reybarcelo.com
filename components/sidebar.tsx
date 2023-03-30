@@ -18,7 +18,7 @@ export default function Sidebar() {
     <aside className="m-0 flex flex-col md:mr-14 md:items-end">
       <div className="header relative h-16 w-16">
         <Link href="/">
-          <Image src="/../public/logo-black.png" alt="logo" fill />
+          <Image src="/logo-black.png" alt="logo" fill />
         </Link>
       </div>
       <nav className=" flex flex-col md:w-40 md:items-end">
