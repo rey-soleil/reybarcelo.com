@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="bg-[#ffeb3b] text-black">
+    <html lang="en" className=" bg-white text-black">
       <body className="mx-10 my-20 flex flex-col md:flex-row">
         {" "}
         <Sidebar />

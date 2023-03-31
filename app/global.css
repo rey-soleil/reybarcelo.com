@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --highlight: #ffeb3b;
+  --color-beige: #fff0e5;
+}
+
 .header {
   @apply mb-10 font-sans text-6xl font-bold;
 }
@@ -15,5 +20,5 @@
 }
 
 .cta {
-  @apply bg-black px-4 py-2 font-semibold text-white;
+  @apply bg-[--highlight] px-4 py-2 font-semibold text-black;
 }
