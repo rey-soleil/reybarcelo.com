@@ -2,7 +2,7 @@ export default function About() {
   return (
     <>
       <h1 className="header">About</h1>
-      <div className="prose">
+      <div className="paragraph">
         <p>
           I attended <b>Stanford University</b> from 2015-2019, where I studied
           computer science with a concentration in artificial intelligence.

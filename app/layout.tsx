@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className=" bg-white text-black">
-      <body className="mx-10 my-20 flex flex-col md:flex-row">
+      <body className="mx-10 my-8 flex flex-col md:my-20 md:flex-row">
         {" "}
         <Sidebar />
         <main>{children}</main>
