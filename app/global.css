@@ -3,10 +3,17 @@
 @tailwind utilities;
 
 .header {
-  @apply mb-4 font-sans text-6xl font-bold;
+  @apply mb-10 font-sans text-6xl font-bold;
+}
+
+.prose {
+  @apply mb-10;
 }
 
 .prose > * {
-  margin-bottom: 1rem;
-  max-width: 30rem;
+  @apply mb-4 max-w-md;
+}
+
+.cta {
+  @apply bg-black px-4 py-2 font-semibold text-white;
 }
