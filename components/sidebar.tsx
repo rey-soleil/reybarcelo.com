@@ -5,12 +5,12 @@ const navItems = {
   "/about": {
     name: "about",
   },
-  "/projects": {
-    name: "projects",
-  },
-  "/writing": {
-    name: "writing",
-  },
+  //   "/projects": {
+  //     name: "projects",
+  //   },
+  //   "/writing": {
+  //     name: "writing",
+  //   },
 };
 
 export default function Sidebar() {
