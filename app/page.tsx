@@ -1,6 +1,6 @@
 import CallsToAction from "../components/CallsToAction";
 import Socials from "../components/Socials";
-
+ 
 export default function Home() {
   return (
     <div className="flew-row flex">
