@@ -8,9 +8,9 @@ const navItems = {
   //   "/projects": {
   //     name: "projects",
   //   },
-  //   "/writing": {
-  //     name: "writing",
-  //   },
+  "/writing": {
+    name: "writing",
+  },
 };
 
 export default function Sidebar() {
