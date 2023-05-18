@@ -4,7 +4,7 @@ import path from "path";
 
 const postsDirectory = path.join(process.cwd(), "posts");
 
-type PostData = { id: string; date: string; title: string };
+export type PostData = { id: string; date: string; title: string };
 
 export function getSortedPostsData() {
   // Get file names under /posts
@@ -19,8 +19,6 @@ export function getSortedPostsData() {
 
     // Use gray-matter to parse the post metadata section
     const matterResult = matter(fileContents);
-
-    console.log({ matterResult });
 
     // Combine the data with the id
     return {
