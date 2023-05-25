@@ -7,7 +7,7 @@ export default function Writing() {
     <>
       <h1 className="header">Writing</h1>
       <div className="paragraph">
-        {/* TODO(rey-soleil): add style */}
+        {/* TODO(rey-soleil): add space between title and date. Maybe use a table */}
         <ul>
           {allPostsData.map(({ id, date, title }) => (
             <li key={title}>
