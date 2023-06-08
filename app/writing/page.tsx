@@ -1,3 +1,5 @@
+import Link from "next/link";
+import Date from "../../components/Date";
 import { getSortedPostsData } from "../../lib/writing";
 
 export default function Writing() {
@@ -6,11 +8,17 @@ export default function Writing() {
   return (
     <>
       <h1 className="header">Writing</h1>
-      <ul className="w-48">
+      <ul>
         {allPostsData.map(({ id, date, title }) => (
-          <li key={title} className="flex justify-around">
-            <p>{title}</p>
-            <p>{date}</p>
+          <li key={id}>
+            <Link
+              href={`/writing/${id}`}
+              className="text-2xl font-bold text-blue-500"
+            >
+              {title}
+            </Link>
+            <br />
+            <Date dateString={date} />
           </li>
         ))}
       </ul>
