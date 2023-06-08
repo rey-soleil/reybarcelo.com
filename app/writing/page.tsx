@@ -6,17 +6,14 @@ export default function Writing() {
   return (
     <>
       <h1 className="header">Writing</h1>
-      <div className="paragraph">
-        {/* TODO(rey-soleil): add space between title and date. Maybe use a table */}
-        <ul>
-          {allPostsData.map(({ id, date, title }) => (
-            <li key={title}>
-              {title}
-              {date}
-            </li>
-          ))}
-        </ul>
-      </div>
+      <ul className="w-48">
+        {allPostsData.map(({ id, date, title }) => (
+          <li key={title} className="flex justify-around">
+            <p>{title}</p>
+            <p>{date}</p>
+          </li>
+        ))}
+      </ul>
     </>
   );
 }
